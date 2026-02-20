@@ -1,1 +1,1417 @@
-<p>Welcome</p>
+<!-- Clinic Landing Page Design -->
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Navya Sree Children Clinic Brand Kit</title>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Google Fonts for Brand Assets -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;family=Nunito:wght@400;600&amp;family=Poppins:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Config -->
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#a8d8ff",
+              "primary-dark": "#7dbfe8", // A slightly darker shade for text contrast if needed
+              "brand-pink": "#FFD6E8",
+              "brand-mint": "#D8FFF1",
+              "background-light": "#f5f7f8",
+              "background-dark": "#0f1a23",
+            },
+            fontFamily: {
+              "display": ["Manrope", "sans-serif"],
+              "brand-heading": ["Poppins", "sans-serif"],
+              "brand-body": ["Nunito", "sans-serif"],
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "2xl": "1rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        /* Custom styles just for the specific brand font display */
+        .font-poppins { font-family: 'Poppins', sans-serif; }
+        .font-nunito { font-family: 'Nunito', sans-serif; }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 antialiased overflow-x-hidden">
+<div class="relative flex min-h-screen w-full flex-col">
+<!-- Header -->
+<header class="sticky top-0 z-50 flex items-center justify-between border-b border-slate-200 bg-white/80 backdrop-blur-md px-6 py-4 dark:border-slate-800 dark:bg-[#0f1a23]/80 md:px-10">
+<div class="flex items-center gap-3">
+<div class="flex size-10 items-center justify-center rounded-lg bg-primary/30 text-slate-900 dark:text-slate-100">
+<span class="material-symbols-outlined text-2xl">local_hospital</span>
+</div>
+<div>
+<h1 class="text-lg font-bold leading-tight tracking-tight text-slate-900 dark:text-white">Navya Sree Children Clinic</h1>
+<p class="text-xs font-medium text-slate-500 dark:text-slate-400">Official Brand Guidelines v2.0</p>
+</div>
+</div>
+<div class="hidden md:flex items-center gap-6">
+<nav class="flex gap-6">
+<a class="text-sm font-semibold text-slate-600 hover:text-primary-dark dark:text-slate-400 dark:hover:text-primary transition-colors" href="#logos">Logos</a>
+<a class="text-sm font-semibold text-slate-600 hover:text-primary-dark dark:text-slate-400 dark:hover:text-primary transition-colors" href="#colors">Colors</a>
+<a class="text-sm font-semibold text-slate-600 hover:text-primary-dark dark:text-slate-400 dark:hover:text-primary transition-colors" href="#typography">Typography</a>
+<a class="text-sm font-semibold text-slate-600 hover:text-primary-dark dark:text-slate-400 dark:hover:text-primary transition-colors" href="#mockups">Mockups</a>
+</nav>
+<div class="h-6 w-px bg-slate-200 dark:bg-slate-700"></div>
+<button class="group flex h-10 items-center gap-2 rounded-lg bg-slate-900 px-4 text-sm font-bold text-white transition-all hover:bg-slate-800 dark:bg-primary dark:text-slate-900 dark:hover:bg-primary-dark">
+<span class="material-symbols-outlined text-[18px]">download</span>
+<span>Download Kit</span>
+</button>
+</div>
+<!-- Mobile Menu Icon -->
+<button class="md:hidden p-2 text-slate-600 dark:text-slate-300">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</header>
+<main class="flex-1 px-4 py-8 md:px-10 lg:px-20 xl:px-40">
+<div class="mx-auto flex max-w-[1200px] flex-col gap-12 pb-20">
+<!-- Intro Section -->
+<div class="flex flex-col gap-4 py-6">
+<h2 class="text-4xl font-extrabold tracking-tight text-slate-900 dark:text-white md:text-5xl">Brand Identity System</h2>
+<p class="max-w-2xl text-lg text-slate-600 dark:text-slate-400">
+                        The comprehensive visual guide for Navya Sree Children Clinic. These guidelines ensure consistency across all patient touchpoints, maintaining a professional yet warm and child-friendly aesthetic.
+                    </p>
+</div>
+<!-- 1. Logo Variants -->
+<section class="scroll-mt-24" id="logos">
+<div class="mb-6 flex items-end justify-between border-b border-slate-200 pb-2 dark:border-slate-800">
+<h3 class="text-2xl font-bold text-slate-900 dark:text-white">1. Logo Variants</h3>
+<a class="flex items-center gap-1 text-sm font-bold text-primary-dark hover:underline dark:text-primary" href="#">
+                            Download SVGs <span class="material-symbols-outlined text-sm">arrow_outward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 gap-6 lg:grid-cols-3">
+<!-- Primary Logo -->
+<div class="group relative col-span-1 flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white transition-shadow hover:shadow-lg dark:border-slate-800 dark:bg-slate-900 lg:col-span-2">
+<div class="aspect-video w-full flex items-center justify-center bg-slate-50 p-10 dark:bg-slate-800/50">
+<!-- Abstract representation of logo -->
+<div class="flex flex-col items-center gap-4">
+<div class="relative size-24 text-primary">
+<svg fill="currentColor" viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+<path d="M50 15C30 15 15 30 15 50C15 70 30 85 50 85C70 85 85 70 85 50" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="8"></path>
+<circle cx="50" cy="50" fill="#FFD6E8" r="12"></circle>
+<path d="M50 25V35M40 30H60" stroke="#a8d8ff" stroke-linecap="round" stroke-width="4"></path>
+</svg>
+</div>
+<span class="font-poppins text-2xl font-bold text-slate-800 dark:text-slate-100">Navya Sree Children Clinic</span>
+</div>
+</div>
+<div class="flex items-center justify-between border-t border-slate-100 bg-white p-4 dark:border-slate-800 dark:bg-slate-900">
+<div>
+<p class="font-bold text-slate-900 dark:text-white">Primary Composite</p>
+<p class="text-sm text-slate-500">Usage: Main headers, Signage, Official Documents</p>
+</div>
+<button class="rounded-full p-2 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-400">
+<span class="material-symbols-outlined">download</span>
+</button>
+</div>
+</div>
+<!-- Stacked Variants -->
+<div class="flex flex-col gap-6">
+<!-- Icon Only -->
+<div class="flex flex-1 flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white transition-shadow hover:shadow-md dark:border-slate-800 dark:bg-slate-900">
+<div class="flex flex-1 items-center justify-center bg-slate-50 p-6 dark:bg-slate-800/50">
+<div class="size-16 text-primary">
+<svg fill="currentColor" viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+<path d="M50 15C30 15 15 30 15 50C15 70 30 85 50 85C70 85 85 70 85 50" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="8"></path>
+<circle cx="50" cy="50" fill="#FFD6E8" r="12"></circle>
+</svg>
+</div>
+</div>
+<div class="border-t border-slate-100 p-3 dark:border-slate-800">
+<p class="font-bold text-slate-900 dark:text-white">Icon Symbol</p>
+<p class="text-xs text-slate-500">Social Media, Favicons, App Icons</p>
+</div>
+</div>
+<!-- Horizontal Lockup -->
+<div class="flex flex-1 flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white transition-shadow hover:shadow-md dark:border-slate-800 dark:bg-slate-900">
+<div class="flex flex-1 items-center justify-center bg-slate-900 p-6 text-white">
+<div class="flex items-center gap-3 opacity-90">
+<div class="size-8 text-primary">
+<svg fill="currentColor" viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+<path d="M50 15C30 15 15 30 15 50C15 70 30 85 50 85C70 85 85 70 85 50" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="8"></path>
+<circle cx="50" cy="50" fill="#FFD6E8" r="12"></circle>
+</svg>
+</div>
+<span class="font-poppins text-sm font-bold">Navya Sree Clinic</span>
+</div>
+</div>
+<div class="border-t border-slate-100 p-3 dark:border-slate-800">
+<p class="font-bold text-slate-900 dark:text-white">Dark Mode / Inverse</p>
+<p class="text-xs text-slate-500">Dark backgrounds, Footer</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. Color Palette -->
+<section class="scroll-mt-24" id="colors">
+<div class="mb-6 border-b border-slate-200 pb-2 dark:border-slate-800">
+<h3 class="text-2xl font-bold text-slate-900 dark:text-white">2. Color Palette</h3>
+</div>
+<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+<!-- Primary Blue -->
+<div class="group flex h-48 flex-col justify-between rounded-2xl bg-[#A7D8FF] p-6 shadow-sm transition-transform hover:-translate-y-1">
+<div class="flex justify-between items-start">
+<span class="rounded-full bg-white/30 px-3 py-1 text-xs font-bold text-slate-800 backdrop-blur-sm">Primary</span>
+<span class="material-symbols-outlined text-slate-700 opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer">content_copy</span>
+</div>
+<div>
+<h4 class="text-2xl font-bold text-slate-900">Baby Blue</h4>
+<p class="font-mono text-sm font-medium text-slate-800 opacity-80">#A7D8FF</p>
+<p class="text-xs text-slate-700 mt-1">Trust, Calm, Medical</p>
+</div>
+</div>
+<!-- Secondary Pink -->
+<div class="group flex h-48 flex-col justify-between rounded-2xl bg-[#FFD6E8] p-6 shadow-sm transition-transform hover:-translate-y-1">
+<div class="flex justify-between items-start">
+<span class="rounded-full bg-white/30 px-3 py-1 text-xs font-bold text-slate-800 backdrop-blur-sm">Accent</span>
+<span class="material-symbols-outlined text-slate-700 opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer">content_copy</span>
+</div>
+<div>
+<h4 class="text-2xl font-bold text-slate-900">Soft Pink</h4>
+<p class="font-mono text-sm font-medium text-slate-800 opacity-80">#FFD6E8</p>
+<p class="text-xs text-slate-700 mt-1">Care, Warmth, Pediatric</p>
+</div>
+</div>
+<!-- Accent Mint -->
+<div class="group flex h-48 flex-col justify-between rounded-2xl bg-[#D8FFF1] p-6 shadow-sm transition-transform hover:-translate-y-1">
+<div class="flex justify-between items-start">
+<span class="rounded-full bg-white/30 px-3 py-1 text-xs font-bold text-slate-800 backdrop-blur-sm">Success</span>
+<span class="material-symbols-outlined text-slate-700 opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer">content_copy</span>
+</div>
+<div>
+<h4 class="text-2xl font-bold text-slate-900">Light Mint</h4>
+<p class="font-mono text-sm font-medium text-slate-800 opacity-80">#D8FFF1</p>
+<p class="text-xs text-slate-700 mt-1">Health, Growth, Positive</p>
+</div>
+</div>
+</div>
+<!-- Neutral Shades row -->
+<div class="mt-4 flex w-full overflow-hidden rounded-xl border border-slate-200 dark:border-slate-700">
+<div class="flex h-16 flex-1 flex-col items-center justify-center bg-slate-50 text-xs font-medium text-slate-500">
+<span>50</span>
+</div>
+<div class="flex h-16 flex-1 flex-col items-center justify-center bg-slate-100 text-xs font-medium text-slate-500">
+<span>100</span>
+</div>
+<div class="flex h-16 flex-1 flex-col items-center justify-center bg-slate-200 text-xs font-medium text-slate-600">
+<span>200</span>
+</div>
+<div class="flex h-16 flex-1 flex-col items-center justify-center bg-slate-400 text-xs font-medium text-white">
+<span>400</span>
+</div>
+<div class="flex h-16 flex-1 flex-col items-center justify-center bg-slate-600 text-xs font-medium text-white">
+<span>600</span>
+</div>
+<div class="flex h-16 flex-1 flex-col items-center justify-center bg-slate-800 text-xs font-medium text-white">
+<span>800</span>
+</div>
+<div class="flex h-16 flex-1 flex-col items-center justify-center bg-slate-900 text-xs font-medium text-white">
+<span>900</span>
+</div>
+</div>
+</section>
+<!-- 3. Typography -->
+<section class="scroll-mt-24" id="typography">
+<div class="mb-6 border-b border-slate-200 pb-2 dark:border-slate-800">
+<h3 class="text-2xl font-bold text-slate-900 dark:text-white">3. Typography</h3>
+</div>
+<div class="flex flex-col gap-8 rounded-2xl border border-slate-200 bg-white p-8 dark:border-slate-800 dark:bg-slate-900 lg:flex-row">
+<!-- Headings -->
+<div class="flex-1 space-y-4">
+<div class="flex items-center gap-2">
+<span class="rounded bg-slate-100 px-2 py-1 text-xs font-bold uppercase tracking-wide text-slate-500 dark:bg-slate-800 dark:text-slate-400">Headings</span>
+<span class="text-sm font-medium text-slate-400">Poppins</span>
+</div>
+<div class="space-y-6">
+<div>
+<h1 class="font-poppins text-5xl font-bold text-slate-900 dark:text-white">Aa</h1>
+<p class="mt-2 font-poppins text-3xl font-bold text-slate-900 dark:text-white">Pediatric Care You Can Trust</p>
+<p class="text-sm text-slate-400 mt-1">Poppins Bold / 700</p>
+</div>
+<div>
+<h2 class="font-poppins text-2xl font-semibold text-slate-900 dark:text-white">Growing Healthy Together</h2>
+<p class="text-sm text-slate-400 mt-1">Poppins SemiBold / 600</p>
+</div>
+</div>
+</div>
+<!-- Divider -->
+<div class="hidden w-px bg-slate-100 dark:bg-slate-800 lg:block"></div>
+<!-- Body -->
+<div class="flex-1 space-y-4">
+<div class="flex items-center gap-2">
+<span class="rounded bg-slate-100 px-2 py-1 text-xs font-bold uppercase tracking-wide text-slate-500 dark:bg-slate-800 dark:text-slate-400">Body Copy</span>
+<span class="text-sm font-medium text-slate-400">Nunito</span>
+</div>
+<div class="space-y-6">
+<div>
+<p class="font-nunito text-4xl text-slate-700 dark:text-slate-300">Aa</p>
+<p class="mt-2 font-nunito text-lg leading-relaxed text-slate-600 dark:text-slate-300">
+                                        Our clinic provides comprehensive pediatric care from infancy through adolescence. We believe in a holistic approach to your child's health, ensuring they grow up happy and strong.
+                                    </p>
+<p class="text-sm text-slate-400 mt-1">Nunito Regular / 400</p>
+</div>
+<div>
+<p class="font-nunito text-base font-semibold leading-relaxed text-slate-600 dark:text-slate-300">
+                                        "Every child deserves a healthy start."
+                                    </p>
+<p class="text-sm text-slate-400 mt-1">Nunito SemiBold / 600</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. Stationery Mockup -->
+<section class="scroll-mt-24" id="mockups">
+<div class="mb-6 border-b border-slate-200 pb-2 dark:border-slate-800">
+<h3 class="text-2xl font-bold text-slate-900 dark:text-white">4. Brand Applications</h3>
+</div>
+<div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
+<!-- Business Card Mockup -->
+<div class="flex flex-col gap-3">
+<div class="group relative aspect-[4/3] w-full overflow-hidden rounded-2xl bg-slate-100 dark:bg-slate-800">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Modern minimal business cards arranged on a clean desk surface" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDd9IfBPsYxfenqQbZMePzqdDs_gq8BgwXGioYlugy0pEnGKgEWNQTeNZshIs4Ng4a1Aes6_oRKU5q8iJwKAxr6iOp2y5wnXD6FvJxnXoHmlwrC4DNMSZ9vcBJayLDMK2tCQwWFVHXyXVMthSJdAn4U09TqV3Ixef6fKP9oK5SFrtVRbYETAmILOckxVDpJBRsT_MkwBuPYYyNi38bQ7iY7duALziEpqXcY9GDxS8ASJ5mxzFTI7ueEs5ylc_UKDnWICt-oSaFluX_Y");'>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-60"></div>
+<div class="absolute bottom-0 left-0 p-6">
+<span class="mb-2 inline-block rounded bg-white/20 px-2 py-1 text-xs font-bold text-white backdrop-blur-md">Stationery</span>
+<h4 class="text-xl font-bold text-white">Business Cards</h4>
+</div>
+</div>
+<p class="text-sm text-slate-500 dark:text-slate-400">Standard 3.5" x 2" cards with rounded corners. Matte finish recommended.</p>
+</div>
+<!-- Prescription Pad Mockup -->
+<div class="flex flex-col gap-3">
+<div class="group relative aspect-[4/3] w-full overflow-hidden rounded-2xl bg-slate-100 dark:bg-slate-800">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Doctor clipboard with prescription paper and stethoscope on blue background" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCnt-_Ne660vljQZ5qNC2sT148cfkfXbb1fLIyHsAewSPB7Z4FuwzNeTPnVppAJPHHpnzV14giyN7P7ycxLsYkEYoS61YIN0CRrnKjhnzZ4Jr8q_jm7DA3eWTW29z3uFbWkujmB-e9Apo7iBQqbhG5uAvG2sgAl8CDT3WBz6X7ZRie4BR6M6EsG3XpsPf8VKGbN_TMhqM-7L0jUw9ORit2TvQSGTXVdGiBADwsePnJAqqHjresi-a6CVZbCd3oYWqCMwhOuKCPakQ3Q");'>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-60"></div>
+<div class="absolute bottom-0 left-0 p-6">
+<span class="mb-2 inline-block rounded bg-white/20 px-2 py-1 text-xs font-bold text-white backdrop-blur-md">Clinical</span>
+<h4 class="text-xl font-bold text-white">Prescription Pad</h4>
+</div>
+</div>
+<p class="text-sm text-slate-500 dark:text-slate-400">A5 sized pads. Primary logo centered at top with 20% opacity watermark in center.</p>
+</div>
+<!-- ID Card Mockup -->
+<div class="flex flex-col gap-3 lg:col-span-2">
+<div class="group relative w-full overflow-hidden rounded-2xl bg-slate-100 dark:bg-slate-800 h-64">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Doctor wearing a white coat with a visible ID badge holder" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC7Ij06OpFrBnGMYticHn0NZ0-O6ZjhQKxOQSEM2ptH2PNjVffdJzGspHXx7ySGNnKMWlDLM8AHfKG4RwJAvM2X5zJfJTvl0SnxmVvsEBKZ93u6g9esT7zUCAH2ImwRWHioEUrRLCZJbRBIxCF6Y7FysbIhl1KFuudfu83AbpvI6UbC2eX5u6w5wcw5A5x0cGBfVq0HT9dvPtTrkPII06Xs0VG385Ngfdu9CiOXz09ZsizOu6a5pIx5_v5EGfngYAZ5DONdK9YN7tq7");'>
+</div>
+<div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/30 to-transparent opacity-70"></div>
+<div class="absolute bottom-0 left-0 p-8 flex flex-col justify-end h-full w-full lg:w-1/2">
+<span class="mb-2 w-fit rounded bg-primary/80 px-2 py-1 text-xs font-bold text-slate-900 backdrop-blur-md">Uniform</span>
+<h4 class="text-2xl font-bold text-white">Staff Identification</h4>
+<p class="mt-2 text-slate-200">Clear, legible identification badges featuring the 'Icon Symbol' variant for staff recognition.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="mt-10 border-t border-slate-200 py-8 text-center dark:border-slate-800">
+<p class="text-sm text-slate-500 dark:text-slate-400">
+                        © 2023 Navya Sree Children Clinic. All rights reserved. <br/>
+                        Designed for internal use and authorized partners only.
+                    </p>
+</footer>
+</div>
+</main>
+</div>
+</body></html>
+
+<!-- Navya Sree Children Clinic Brand Kit -->
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Vaccination Schedule Table - Navya Sree Children Clinic</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#a8d8ff",
+                        "secondary": "#FFD6E8",
+                        "background-light": "#f5f7f8",
+                        "background-dark": "#0f1a23",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 min-h-screen">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<!-- Navigation Header -->
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-slate-200 dark:border-slate-800 px-6 md:px-20 py-4 bg-white dark:bg-slate-900 sticky top-0 z-50">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-3 text-slate-900 dark:text-slate-100">
+<div class="w-10 h-10 bg-primary rounded-xl flex items-center justify-center text-slate-900">
+<span class="material-symbols-outlined text-3xl">child_care</span>
+</div>
+<div class="flex flex-col">
+<h2 class="text-lg font-bold leading-tight tracking-tight">Navya Sree</h2>
+<span class="text-xs font-medium text-slate-500 uppercase tracking-widest">Children Clinic</span>
+</div>
+</div>
+<nav class="hidden lg:flex items-center gap-8 ml-4">
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Home</a>
+<a class="text-sm font-semibold text-primary" href="#">Vaccination Schedule</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Doctors</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Patient Portal</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<div class="hidden sm:flex items-center gap-2 text-slate-600 dark:text-slate-400 mr-4">
+<span class="material-symbols-outlined text-sm">call</span>
+<span class="text-sm font-medium">+91 98480 12345</span>
+</div>
+<button class="hidden md:flex min-w-[140px] cursor-pointer items-center justify-center rounded-lg h-10 px-5 bg-primary text-slate-900 text-sm font-bold shadow-sm hover:bg-primary/90 transition-all">
+                        Book Appointment
+                    </button>
+<div class="h-10 w-10 rounded-full bg-secondary flex items-center justify-center text-slate-800 cursor-pointer overflow-hidden border-2 border-white dark:border-slate-800">
+<img alt="Doctor profile" class="w-full h-full object-cover" data-alt="Female doctor with stethoscope around neck" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDVLyWNjx0_yfOdFH0y2tHzVe1KSRHdCwESNJqEJjLg1jxzXIWx18BaOnDlOY2idiDGabOKX197xR6JzxEQI3a2C0lM2JsdBEAQUj7AJ_Q8IQItOhSPB-Yu3wYoRKfix16h-0vvq9xttVrobgzBaB4iRloWqAExA6klqu_LrgU5Q1cBkaTFzSuYHVRD-Z_cubSRqfKBxqUDaeWCbXJA5el5MXsJQq1YcCzdi1VsubvSdlNDc5eLerKmOrxbaa3qtS24TKPCpGiPploQ"/>
+</div>
+</div>
+</header>
+<main class="flex-1 px-4 md:px-20 py-8 max-w-[1280px] mx-auto w-full">
+<!-- Page Title Section -->
+<div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 mb-8">
+<div class="max-w-2xl">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary/30 text-slate-700 dark:text-slate-300 text-xs font-bold mb-3 uppercase tracking-wider">
+<span class="material-symbols-outlined text-sm">verified</span>
+                            Official Immunization Guide 2024
+                        </div>
+<h1 class="text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight mb-2">Vaccination Schedule</h1>
+<p class="text-slate-600 dark:text-slate-400 text-lg">Detailed guide for your child's immunization milestones from birth to adolescence. Keep track of doses and upcoming appointments.</p>
+</div>
+<div class="flex gap-3 w-full md:w-auto">
+<button class="flex-1 md:flex-none flex items-center justify-center gap-2 px-5 py-2.5 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 font-bold text-sm hover:bg-slate-50 transition-colors">
+<span class="material-symbols-outlined text-xl">download</span>
+                            Download PDF
+                        </button>
+<button class="flex-1 md:flex-none flex items-center justify-center gap-2 px-5 py-2.5 rounded-lg bg-primary text-slate-900 font-bold text-sm shadow-md hover:shadow-lg transition-all">
+<span class="material-symbols-outlined text-xl">print</span>
+                            Print
+                        </button>
+</div>
+</div>
+<!-- Search and Filters -->
+<div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
+<div class="md:col-span-2 relative">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400">search</span>
+<input class="w-full pl-10 pr-4 py-3 rounded-xl border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 focus:ring-primary focus:border-primary text-sm" placeholder="Search vaccine name or disease..." type="text"/>
+</div>
+<div class="relative">
+<select class="w-full px-4 py-3 rounded-xl border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 focus:ring-primary focus:border-primary text-sm appearance-none">
+<option>All Age Groups</option>
+<option>Birth to 6 Months</option>
+<option>6 Months to 2 Years</option>
+<option>Preschool (4-6 Years)</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none">expand_more</span>
+</div>
+<div class="relative">
+<select class="w-full px-4 py-3 rounded-xl border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 focus:ring-primary focus:border-primary text-sm appearance-none">
+<option>All Statuses</option>
+<option>Completed</option>
+<option>Upcoming</option>
+<option>Missed</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none">filter_list</span>
+</div>
+</div>
+<!-- Vaccination Table -->
+<div class="bg-white dark:bg-slate-900 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-800 overflow-hidden overflow-x-auto">
+<table class="w-full text-left border-collapse min-w-[800px]">
+<thead>
+<tr class="bg-primary/20 dark:bg-primary/10">
+<th class="px-6 py-4 text-xs font-bold uppercase tracking-widest text-slate-600 dark:text-slate-400 w-32">Age Group</th>
+<th class="px-6 py-4 text-xs font-bold uppercase tracking-widest text-slate-600 dark:text-slate-400">Vaccine Name</th>
+<th class="px-6 py-4 text-xs font-bold uppercase tracking-widest text-slate-600 dark:text-slate-400">Protects Against</th>
+<th class="px-6 py-4 text-xs font-bold uppercase tracking-widest text-slate-600 dark:text-slate-400">Dose Type</th>
+<th class="px-6 py-4 text-xs font-bold uppercase tracking-widest text-slate-600 dark:text-slate-400 w-48 text-center">Status</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-slate-100 dark:divide-slate-800">
+<!-- Birth Row Group -->
+<tr class="hover:bg-primary/5 transition-colors group">
+<td class="px-6 py-6 font-bold text-slate-900 dark:text-white bg-slate-50/50 dark:bg-slate-800/20">At Birth</td>
+<td class="px-6 py-6">
+<div class="flex flex-col">
+<span class="font-bold text-slate-800 dark:text-slate-200">BCG, Hep B1, OPV 0</span>
+<span class="text-xs text-slate-500 mt-1">Single Session</span>
+</div>
+</td>
+<td class="px-6 py-6 text-slate-600 dark:text-slate-400 text-sm">Tuberculosis, Hepatitis B, Polio</td>
+<td class="px-6 py-6 text-sm italic">Primary Dose</td>
+<td class="px-6 py-6">
+<div class="flex justify-center">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-100 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-400 text-xs font-bold">
+<span class="material-symbols-outlined text-sm">check_circle</span>
+                                            Completed
+                                        </span>
+</div>
+</td>
+</tr>
+<!-- 6 Weeks Row Group -->
+<tr class="hover:bg-primary/5 transition-colors bg-secondary/5 dark:bg-secondary/5 group">
+<td class="px-6 py-6 font-bold text-slate-900 dark:text-white bg-secondary/10 dark:bg-secondary/10">6 Weeks</td>
+<td class="px-6 py-6">
+<div class="flex flex-col">
+<span class="font-bold text-slate-800 dark:text-slate-200">Pentavalent 1, IPV 1</span>
+<span class="text-xs text-slate-500 mt-1">Diphtheria, Tetanus, Pertussis + Hep B + Hib</span>
+</div>
+</td>
+<td class="px-6 py-6 text-slate-600 dark:text-slate-400 text-sm">Multiple Infections</td>
+<td class="px-6 py-6 text-sm italic">Combined Shot</td>
+<td class="px-6 py-6">
+<div class="flex justify-center">
+<button class="px-4 py-1.5 rounded-lg border-2 border-primary text-slate-800 dark:text-primary text-xs font-bold hover:bg-primary hover:text-slate-900 transition-all">
+                                            Mark as Done
+                                        </button>
+</div>
+</td>
+</tr>
+<!-- 10 Weeks Row Group -->
+<tr class="hover:bg-primary/5 transition-colors group">
+<td class="px-6 py-6 font-bold text-slate-900 dark:text-white bg-slate-50/50 dark:bg-slate-800/20">10 Weeks</td>
+<td class="px-6 py-6">
+<div class="flex flex-col">
+<span class="font-bold text-slate-800 dark:text-slate-200">Pentavalent 2, Rotavirus 2</span>
+<span class="text-xs text-slate-500 mt-1">Oral + Injectable</span>
+</div>
+</td>
+<td class="px-6 py-6 text-slate-600 dark:text-slate-400 text-sm">Flu, Diarrhea, Pneumonia</td>
+<td class="px-6 py-6 text-sm italic">Booster 1</td>
+<td class="px-6 py-6">
+<div class="flex justify-center">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400 text-xs font-bold">
+<span class="material-symbols-outlined text-sm">schedule</span>
+                                            Upcoming
+                                        </span>
+</div>
+</td>
+</tr>
+<!-- 14 Weeks Row Group -->
+<tr class="hover:bg-primary/5 transition-colors group">
+<td class="px-6 py-6 font-bold text-slate-900 dark:text-white bg-slate-50/50 dark:bg-slate-800/20">14 Weeks</td>
+<td class="px-6 py-6">
+<div class="flex flex-col">
+<span class="font-bold text-slate-800 dark:text-slate-200">Pentavalent 3, OPV 3, PCV 3</span>
+<span class="text-xs text-slate-500 mt-1">Final Primary Series</span>
+</div>
+</td>
+<td class="px-6 py-6 text-slate-600 dark:text-slate-400 text-sm">Polio, Hep B, Meningitis</td>
+<td class="px-6 py-6 text-sm italic">Completion Dose</td>
+<td class="px-6 py-6">
+<div class="flex justify-center">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400 text-xs font-bold">
+<span class="material-symbols-outlined text-sm">lock</span>
+                                            Wait List
+                                        </span>
+</div>
+</td>
+</tr>
+<!-- 6-9 Months Row Group -->
+<tr class="hover:bg-primary/5 transition-colors group">
+<td class="px-6 py-6 font-bold text-slate-900 dark:text-white bg-slate-50/50 dark:bg-slate-800/20">9 Months</td>
+<td class="px-6 py-6">
+<div class="flex flex-col">
+<span class="font-bold text-slate-800 dark:text-slate-200">MR 1, Vit A</span>
+<span class="text-xs text-slate-500 mt-1">Measles, Rubella</span>
+</div>
+</td>
+<td class="px-6 py-6 text-slate-600 dark:text-slate-400 text-sm">Respiratory Virus, Eye Health</td>
+<td class="px-6 py-6 text-sm italic">Supplement</td>
+<td class="px-6 py-6">
+<div class="flex justify-center">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400 text-xs font-bold">
+<span class="material-symbols-outlined text-sm">lock</span>
+                                            Wait List
+                                        </span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Clinic Contact Footer Info -->
+<div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 p-8 bg-primary/10 dark:bg-primary/5 rounded-3xl border border-primary/20">
+<div class="flex gap-4">
+<div class="w-12 h-12 rounded-2xl bg-white dark:bg-slate-800 flex items-center justify-center text-primary shadow-sm shrink-0">
+<span class="material-symbols-outlined text-2xl">location_on</span>
+</div>
+<div>
+<h4 class="font-bold text-slate-900 dark:text-white mb-1">Clinic Address</h4>
+<p class="text-sm text-slate-600 dark:text-slate-400">123 Health Avenue, Medical Square<br/>Hyderabad, TS 500081</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="w-12 h-12 rounded-2xl bg-white dark:bg-slate-800 flex items-center justify-center text-primary shadow-sm shrink-0">
+<span class="material-symbols-outlined text-2xl">call</span>
+</div>
+<div>
+<h4 class="font-bold text-slate-900 dark:text-white mb-1">Appointment Desk</h4>
+<p class="text-sm text-slate-600 dark:text-slate-400">Main: +91 98480 12345<br/>Support: support@navyasree.com</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="w-12 h-12 rounded-2xl bg-white dark:bg-slate-800 flex items-center justify-center text-primary shadow-sm shrink-0">
+<span class="material-symbols-outlined text-2xl">emergency</span>
+</div>
+<div>
+<h4 class="font-bold text-slate-900 dark:text-white mb-1">Emergency Care</h4>
+<p class="text-sm text-slate-600 dark:text-slate-400">24/7 Pediatrics Hotline:<br/><span class="text-rose-500 font-bold">1-800-KIDS-HELP</span></p>
+</div>
+</div>
+</div>
+<!-- Disclaimer -->
+<div class="mt-8 flex items-start gap-3 p-4 bg-amber-50 dark:bg-amber-900/10 rounded-xl border border-amber-200 dark:border-amber-900/30">
+<span class="material-symbols-outlined text-amber-600">info</span>
+<p class="text-xs text-amber-800 dark:text-amber-300 leading-relaxed">
+<strong>Medical Note:</strong> This schedule is based on the National Immunization Schedule. Actual dates may vary depending on your child's health condition and doctor's advice. Please consult Dr. Navya Sree before administering any vaccines.
+                    </p>
+</div>
+</main>
+<footer class="mt-auto py-8 border-t border-slate-200 dark:border-slate-800 px-6 md:px-20 text-center">
+<p class="text-sm text-slate-500">© 2024 Navya Sree Children Clinic. All rights reserved. | <a class="underline hover:text-primary" href="#">Privacy Policy</a></p>
+</footer>
+</div>
+</div>
+</body></html>
+
+<!-- Vaccination Schedule Table -->
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Neonatal Care Details | Navya Sree Children Clinic</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#a8aaff",
+                        "baby-blue": "#A7D8FF",
+                        "light-mint": "#D8FFF1",
+                        "background-light": "#f5f5f8",
+                        "background-dark": "#0f0f23",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.5rem",
+                        "lg": "1rem",
+                        "xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Manrope', sans-serif;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-display">
+<div class="relative flex min-h-screen flex-col overflow-x-hidden">
+<!-- Top Navigation -->
+<header class="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex h-16 items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="flex h-10 w-10 items-center justify-center rounded-xl bg-primary text-white">
+<span class="material-symbols-outlined">child_care</span>
+</div>
+<h2 class="text-lg font-bold tracking-tight">Navya Sree Clinic</h2>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Home</a>
+<a class="text-sm font-semibold text-primary" href="#">Services</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Doctors</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">About</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Contact</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="hidden lg:flex items-center gap-2 rounded-xl bg-primary px-5 py-2.5 text-sm font-bold text-slate-900 shadow-sm transition-all hover:bg-primary/90">
+<span class="material-symbols-outlined text-[20px]">calendar_today</span>
+                            Book Appointment
+                        </button>
+<div class="h-10 w-10 rounded-full bg-slate-200 dark:bg-slate-700 bg-cover bg-center border-2 border-primary/20" data-alt="Doctor profile portrait" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDJ9aQUAlTkTpJWvK3T4vm0cJOLr8nN2NDF2Wkv2nZqH4DsN2mEs426HeA7QFSuccm2MOeyu4Kv6zjSgFAdAKsUBqU79iYNEpRH_eRzY8xSO4mq8nw6lBAkgNte1AeDshJZthn9m16oP4ij_pD7PPouPpYuYeveTWMOSjKl8_XEbCmaRo5FOqNhHVPe8yWMhEsAFrrCpVM7m53Ssr7Zn_MaorNORCd6Ew-UdMZszCW3YVoBWbMRAyYnSN28UKk4ovmsZh3QsxV3kmRu')"></div>
+</div>
+</div>
+</div>
+</header>
+<main class="flex-grow">
+<!-- Hero Section -->
+<section class="relative bg-white dark:bg-slate-900 overflow-hidden py-12 lg:py-20">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-7">
+<span class="inline-flex items-center rounded-full bg-primary/20 px-3 py-1 text-sm font-bold text-primary mb-6">
+                                Specialized Neonatal Care
+                            </span>
+<h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-[1.1] tracking-tight mb-6">
+                                Compassionate Care for <br/> <span class="text-primary">Your Little One</span>
+</h1>
+<p class="text-lg text-slate-600 dark:text-slate-400 max-w-2xl mb-8 leading-relaxed">
+                                Expert medical attention for newborns during the most critical first 28 days. Our clinic provides a safe, nurturing environment for your baby to thrive.
+                            </p>
+<div class="flex flex-wrap gap-4">
+<button class="rounded-xl bg-slate-900 dark:bg-primary px-8 py-4 font-bold text-white dark:text-slate-900 shadow-lg transition-transform active:scale-95">
+                                    Our Approach
+                                </button>
+<button class="flex items-center gap-2 rounded-xl border-2 border-primary/30 px-8 py-4 font-bold transition-colors hover:bg-primary/10">
+<span class="material-symbols-outlined text-primary">play_circle</span>
+                                    Virtual Tour
+                                </button>
+</div>
+</div>
+<div class="lg:col-span-5 relative">
+<div class="aspect-square rounded-3xl overflow-hidden shadow-2xl bg-slate-100 border-8 border-white dark:border-slate-800">
+<img alt="Newborn baby sleeping" class="h-full w-full object-cover" data-alt="Close up of a peaceful newborn baby sleeping in a blanket" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6y6BMX7uCZSIxQICwZ1uki6JYe3HDahWGefzc2lJrXmtLI0vrOao-s5i83TqmkkVSk3WDzm5OYTwSpewnd3cMbVZS4Jp0aAFBGGqytgjUfvdDZ8n1Ti99U1QSBvYRSQlehpFP5kplZDIYpZ8IDJr1xzf5XFR13Dj4FCXt5APMBSCINhRSegHghSeuJCESrSqNtYSaVAfsU6h0Ac5RoqptQhyow4DyWFKGzPQWaB_SBVTsCegPULzZmhpW7aVbByHG1EV-4masy_aI"/>
+</div>
+<!-- Floating Badge -->
+<div class="absolute -bottom-6 -left-6 rounded-2xl bg-white dark:bg-slate-800 p-6 shadow-xl border border-slate-100 dark:border-slate-700 hidden sm:block">
+<div class="flex items-center gap-4">
+<div class="rounded-full bg-light-mint p-3 text-emerald-600">
+<span class="material-symbols-outlined">verified_user</span>
+</div>
+<div>
+<p class="text-sm font-bold">Safe Environment</p>
+<p class="text-xs text-slate-500">Sterilized Facility</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Services and Sidebar Content -->
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+<div class="flex flex-col lg:flex-row gap-12">
+<!-- Left Column: Services Grid -->
+<div class="lg:w-2/3">
+<div class="mb-10">
+<h2 class="text-3xl font-bold tracking-tight mb-4">Core Neonatal Services</h2>
+<div class="h-1.5 w-20 bg-primary rounded-full"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<!-- Service 1 -->
+<div class="group relative rounded-2xl bg-baby-blue/20 p-8 transition-all hover:shadow-xl border border-baby-blue/30">
+<div class="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-white text-primary shadow-sm">
+<span class="material-symbols-outlined text-3xl">emergency</span>
+</div>
+<h3 class="text-xl font-bold mb-3">24/7 Neonatal Support</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6">
+                                    Round-the-clock emergency assistance for your newborn. Expert pediatricians are always on standby for immediate care.
+                                </p>
+<a class="inline-flex items-center text-sm font-bold text-primary gap-1 group-hover:translate-x-1 transition-transform" href="#">
+                                    Read more <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</a>
+</div>
+<!-- Service 2 -->
+<div class="group relative rounded-2xl bg-light-mint/20 p-8 transition-all hover:shadow-xl border border-light-mint/30">
+<div class="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-white text-emerald-500 shadow-sm">
+<span class="material-symbols-outlined text-3xl">medical_services</span>
+</div>
+<h3 class="text-xl font-bold mb-3">Post-Birth Care</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6">
+                                    Comprehensive screenings, vaccinations, and initial health assessments to ensure a healthy transition from hospital to home.
+                                </p>
+<a class="inline-flex items-center text-sm font-bold text-emerald-600 gap-1 group-hover:translate-x-1 transition-transform" href="#">
+                                    Read more <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</a>
+</div>
+<!-- Service 3 -->
+<div class="group relative rounded-2xl bg-primary/10 p-8 transition-all hover:shadow-xl border border-primary/20">
+<div class="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-white text-primary shadow-sm">
+<span class="material-symbols-outlined text-3xl">breastfeeding</span>
+</div>
+<h3 class="text-xl font-bold mb-3">Breastfeeding Support</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6">
+                                    Personalized guidance and techniques from certified lactation consultants to help you and your baby bond effectively.
+                                </p>
+<a class="inline-flex items-center text-sm font-bold text-primary gap-1 group-hover:translate-x-1 transition-transform" href="#">
+                                    Read more <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</a>
+</div>
+<!-- Service 4 -->
+<div class="group relative rounded-2xl bg-slate-100 dark:bg-slate-800 p-8 transition-all hover:shadow-xl border border-slate-200 dark:border-slate-700">
+<div class="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-white dark:bg-slate-700 text-slate-800 dark:text-slate-100 shadow-sm">
+<span class="material-symbols-outlined text-3xl">monitoring</span>
+</div>
+<h3 class="text-xl font-bold mb-3">Growth Monitoring</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6">
+                                    Detailed tracking of weight, length, and developmental milestones to ensure your baby is growing on the right curve.
+                                </p>
+<a class="inline-flex items-center text-sm font-bold text-slate-600 dark:text-slate-400 gap-1 group-hover:translate-x-1 transition-transform" href="#">
+                                    Read more <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Right Column: Sidebar -->
+<aside class="lg:w-1/3">
+<div class="sticky top-24 space-y-6">
+<!-- Contact Card -->
+<div class="rounded-2xl bg-slate-900 p-8 text-white shadow-xl">
+<h3 class="text-xl font-bold mb-6">Urgent Neonatal Queries</h3>
+<div class="flex items-center gap-4 mb-8">
+<div class="flex h-14 w-14 items-center justify-center rounded-full bg-primary/20 text-primary animate-pulse">
+<span class="material-symbols-outlined text-3xl">call</span>
+</div>
+<div>
+<p class="text-xs uppercase tracking-widest text-slate-400 font-bold">Direct Hotline</p>
+<p class="text-2xl font-black">91777 69169</p>
+</div>
+</div>
+<button class="w-full rounded-xl bg-primary py-4 font-bold text-slate-900 transition-colors hover:bg-primary/90">
+                                    Call Now
+                                </button>
+<p class="mt-4 text-center text-xs text-slate-400">Average response time: &lt; 2 mins</p>
+</div>
+<!-- Address Card -->
+<div class="rounded-2xl bg-white dark:bg-slate-800 p-6 border border-slate-200 dark:border-slate-700 shadow-sm">
+<div class="flex items-start gap-4">
+<div class="rounded-lg bg-slate-100 dark:bg-slate-700 p-3 text-primary">
+<span class="material-symbols-outlined">location_on</span>
+</div>
+<div>
+<h4 class="font-bold mb-2">Clinic Location</h4>
+<p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
+                                            Navya Sree Clinic,<br/>
+                                            Beside Main Road, Karimnagar,<br/>
+                                            Telangana, 505001
+                                        </p>
+<div class="h-32 w-full rounded-lg bg-slate-100 overflow-hidden relative" data-location="Karimnagar" style="">
+<div class="absolute inset-0 bg-cover bg-center opacity-70" data-alt="Stylized map of Karimnagar location" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCw2ueBkdsxXvVcwy3kRrk3pVo5Zm1BF-puYpBoPF8_4T0zechv7YUZe1vIm1MPVP3setlFC3ytyhZCLBvPTwC7snEDFndlJpuwlPLopYlp6LpbQAclFWyrVxULnFrsQdXiOe7lYZH4csmm3VQR3SGGsYimhektsuSYtqtZBk0lvO4WzRzLTpiEy8eouOYBzwKSsENsz5QYVl3JYDY6UUPt0AC7FwM4SwALiuiMGqcrnLoaOijrCWjGkWVzgEYEbggxYDye6jL6QKFF')"></div>
+<div class="absolute inset-0 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-4xl">location_on</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</aside>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark py-12">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row items-center justify-between gap-6">
+<div class="flex items-center gap-3">
+<div class="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-white">
+<span class="material-symbols-outlined text-sm">child_care</span>
+</div>
+<span class="font-bold text-slate-700 dark:text-slate-200">Navya Sree Children Clinic</span>
+</div>
+<div class="flex items-center gap-8 text-sm font-medium text-slate-500">
+<a class="hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="hover:text-primary transition-colors" href="#">Terms of Service</a>
+<a class="hover:text-primary transition-colors" href="#">Patient Portal</a>
+</div>
+<p class="text-xs text-slate-400">
+                        © 2024 Navya Sree Children Clinic. All rights reserved.
+                    </p>
+</div>
+</div>
+</footer>
+<!-- Bottom Quick Connect for Mobile -->
+<div class="fixed bottom-6 left-1/2 z-50 -translate-x-1/2 lg:hidden w-[90%] max-w-sm">
+<a class="flex items-center justify-center gap-3 rounded-full bg-slate-900 dark:bg-primary px-8 py-4 text-white dark:text-slate-900 shadow-2xl" href="tel:9177769169">
+<span class="material-symbols-outlined">call</span>
+<span class="font-bold">Urgent Call: 91777 69169</span>
+</a>
+</div>
+</div>
+</body></html>
+
+<!-- Neonatal Care Details Page -->
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>General Pediatrics Consultation | Navya Sree Children Clinic</title>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Google Fonts: Manrope -->
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#137fec",
+                        "soft-pink": "#FFD6E8",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-display">
+<!-- Top Navigation Bar -->
+<header class="sticky top-0 z-50 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-16">
+<div class="flex items-center gap-2">
+<div class="bg-primary p-1.5 rounded-lg text-white">
+<span class="material-symbols-outlined block">child_care</span>
+</div>
+<h1 class="text-primary text-xl font-extrabold tracking-tight">Navya Sree Clinic</h1>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-slate-600 dark:text-slate-300 hover:text-primary transition-colors font-medium" href="#">Home</a>
+<a class="text-primary font-bold border-b-2 border-primary" href="#">Services</a>
+<a class="text-slate-600 dark:text-slate-300 hover:text-primary transition-colors font-medium" href="#">About Us</a>
+<a class="text-slate-600 dark:text-slate-300 hover:text-primary transition-colors font-medium" href="#">Contact</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="bg-primary hover:bg-primary/90 text-white px-5 py-2.5 rounded-lg font-bold text-sm transition-all shadow-md shadow-primary/20">
+                        Book Appointment
+                    </button>
+</div>
+</div>
+</div>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative py-16 overflow-hidden">
+<div class="absolute inset-0 bg-soft-pink opacity-20 -z-10 skew-y-3 origin-top-left"></div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12 items-center">
+<div class="space-y-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 bg-primary/10 text-primary rounded-full text-xs font-bold uppercase tracking-wider">
+<span class="material-symbols-outlined text-sm">verified</span> Expert Pediatric Consultation
+                    </div>
+<h2 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-900 dark:text-white leading-[1.1]">
+                        Specialized Care for Your <span class="text-primary">Little Ones</span>
+</h2>
+<p class="text-lg text-slate-600 dark:text-slate-400 leading-relaxed max-w-xl">
+                        Providing compassionate, comprehensive medical care for children of all ages in Karimnagar. We focus on health, growth, and happy smiles.
+                    </p>
+<div class="flex flex-wrap gap-4 pt-2">
+<button class="bg-primary text-white px-8 py-4 rounded-xl font-bold text-lg shadow-lg shadow-primary/30 hover:scale-[1.02] transition-transform">
+                            Schedule Visit
+                        </button>
+<button class="bg-white dark:bg-slate-800 border-2 border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 px-8 py-4 rounded-xl font-bold text-lg hover:bg-slate-50 transition-colors">
+                            Our Services
+                        </button>
+</div>
+</div>
+<div class="relative">
+<div class="absolute -top-4 -right-4 w-24 h-24 bg-soft-pink rounded-full blur-2xl opacity-60"></div>
+<div class="absolute -bottom-4 -left-4 w-32 h-32 bg-primary/20 rounded-full blur-3xl opacity-60"></div>
+<img alt="Pediatrician examining a happy child" class="rounded-2xl shadow-2xl relative z-10 w-full object-cover aspect-[4/3]" data-alt="Doctor smiling while checking a toddler patient" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4cEdLRcG20n7TE07pM7FN2viECCyd5J43c7AZgmEnJUKILxghC8rjBOA3RmQfbc9aSG-UsWo01DrYzRANM62jCYMy2Y-ExPWEdVUpEiuCcubxyg9xzNYrqqE7HpGsbL9KBWLJ5r0bow39JYSGS9FvMqhlygZkP9Ja3RwrnXXcl4NV68a8Tk9ZP627uVA4kW6wxQQPDTEuj8Y22QZnYkbA1b1z72BXlEcCh2D1Ww3ib6O2ctGF3HAusBFEEr0FLQHEDu136FAznwq9"/>
+</div>
+</div>
+</section>
+<!-- Consultation Fees & Timing Box -->
+<section class="py-8 bg-white dark:bg-slate-900 border-y border-slate-100 dark:border-slate-800">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="bg-gradient-to-r from-primary/5 to-soft-pink/10 rounded-2xl p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-8 border border-primary/10">
+<div class="flex items-center gap-6">
+<div class="bg-primary text-white size-14 rounded-full flex items-center justify-center shadow-lg shadow-primary/20">
+<span class="material-symbols-outlined text-3xl">payments</span>
+</div>
+<div>
+<p class="text-sm font-bold text-primary uppercase tracking-widest">Consultation Fee</p>
+<p class="text-3xl font-extrabold text-slate-900 dark:text-white">₹500 <span class="text-sm font-medium text-slate-500">(Initial Visit)</span></p>
+</div>
+</div>
+<div class="h-px md:h-12 w-full md:w-px bg-slate-300 dark:bg-slate-700"></div>
+<div class="flex items-center gap-6">
+<div class="bg-white dark:bg-slate-800 text-primary size-14 rounded-full flex items-center justify-center shadow-md">
+<span class="material-symbols-outlined text-3xl">schedule</span>
+</div>
+<div>
+<p class="text-sm font-bold text-primary uppercase tracking-widest">Clinic Timings</p>
+<p class="text-lg font-bold text-slate-900 dark:text-white">Mon - Sat: 10 AM - 8 PM</p>
+<p class="text-sm text-slate-500 font-medium">Sunday: 10 AM - 1 PM (Appointments only)</p>
+</div>
+</div>
+<button class="w-full md:w-auto bg-primary text-white px-6 py-3 rounded-lg font-bold flex items-center justify-center gap-2 hover:bg-primary/90 transition-colors">
+<span class="material-symbols-outlined">map</span>
+                        Get Directions
+                    </button>
+</div>
+</div>
+</section>
+<!-- Conditions We Treat -->
+<section class="py-20">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<h2 class="text-3xl font-extrabold text-slate-900 dark:text-white mb-4">Conditions We Treat</h2>
+<p class="text-slate-600 dark:text-slate-400">Comprehensive diagnostic and treatment services for a wide range of childhood ailments.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Fever -->
+<div class="group p-8 rounded-2xl bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 hover:border-soft-pink hover:shadow-xl hover:shadow-soft-pink/10 transition-all">
+<div class="size-12 rounded-xl bg-soft-pink/30 text-slate-800 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">thermostat</span>
+</div>
+<h3 class="text-xl font-bold text-slate-900 dark:text-white mb-3">Fever Management</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">Expert diagnosis and care for persistent or acute fevers in infants and children.</p>
+</div>
+<!-- Respiratory -->
+<div class="group p-8 rounded-2xl bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 hover:border-primary/30 hover:shadow-xl hover:shadow-primary/10 transition-all">
+<div class="size-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">air</span>
+</div>
+<h3 class="text-xl font-bold text-slate-900 dark:text-white mb-3">Respiratory Care</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">Treatment for asthma, allergies, coughs, and common seasonal infections.</p>
+</div>
+<!-- Nutrition -->
+<div class="group p-8 rounded-2xl bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 hover:border-soft-pink hover:shadow-xl hover:shadow-soft-pink/10 transition-all">
+<div class="size-12 rounded-xl bg-soft-pink/30 text-slate-800 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">restaurant</span>
+</div>
+<h3 class="text-xl font-bold text-slate-900 dark:text-white mb-3">Nutrition Guidance</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">Personalized diet plans and growth monitoring for healthy physical development.</p>
+</div>
+<!-- Newborn -->
+<div class="group p-8 rounded-2xl bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 hover:border-primary/30 hover:shadow-xl hover:shadow-primary/10 transition-all">
+<div class="size-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">baby_changing_station</span>
+</div>
+<h3 class="text-xl font-bold text-slate-900 dark:text-white mb-3">Newborn Care</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">Comprehensive wellness checks, vaccinations, and support for new parents.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Meet the Specialist -->
+<section class="py-20 bg-soft-pink/10">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="bg-white dark:bg-slate-900 rounded-3xl overflow-hidden shadow-2xl flex flex-col lg:flex-row">
+<div class="lg:w-1/2 relative">
+<img alt="Lead Pediatrician" class="w-full h-full object-cover min-h-[400px]" data-alt="Professional portrait of a male pediatrician in a clinic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAx6E7VcDD0D8LDlNemk720d1Dcfe5VzvmbAwgynCnuYRlgdNyY8oRawuAMdB0DzdGHuOxVbWpsM60fu7fRHQ6T4QLVSr6mREQrVv9zn56-ZiLSd9MlM5LE_Yw_MtZRIwuP89UhXXMtkkYKugZuCxyL_OE5mjws1LnWzuBeL-Y_ytcVE3ObM-o-gaPDEEruQhPWAf1T9AvoAJoKYtVGfSQjMiZ7vpQKF3lneCbsSMOfYP9wkqMML8nPybgA7WNJ5s9ZiZZO2XW6foxC"/>
+<div class="absolute bottom-6 left-6 bg-white dark:bg-slate-800 px-4 py-2 rounded-lg shadow-lg flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">verified_user</span>
+<span class="text-sm font-bold text-slate-900 dark:text-white">Verified Specialist</span>
+</div>
+</div>
+<div class="lg:w-1/2 p-10 lg:p-16 flex flex-col justify-center">
+<h2 class="text-primary font-bold uppercase tracking-widest text-sm mb-4">Meet Our Doctor</h2>
+<h3 class="text-4xl font-extrabold text-slate-900 dark:text-white mb-2">Dr. Navya Sree</h3>
+<p class="text-xl font-medium text-slate-500 mb-6">MBBS, MD Pediatrics | 10+ Years Experience</p>
+<div class="space-y-4 mb-8">
+<div class="flex items-start gap-4">
+<div class="bg-primary/10 p-2 rounded-full text-primary mt-1">
+<span class="material-symbols-outlined text-lg">check_circle</span>
+</div>
+<p class="text-slate-600 dark:text-slate-400">Expert in infant intensive care and adolescent health consultation.</p>
+</div>
+<div class="flex items-start gap-4">
+<div class="bg-primary/10 p-2 rounded-full text-primary mt-1">
+<span class="material-symbols-outlined text-lg">check_circle</span>
+</div>
+<p class="text-slate-600 dark:text-slate-400">Committed to minimal medication and holistic wellness approaches.</p>
+</div>
+<div class="flex items-start gap-4">
+<div class="bg-primary/10 p-2 rounded-full text-primary mt-1">
+<span class="material-symbols-outlined text-lg">check_circle</span>
+</div>
+<p class="text-slate-600 dark:text-slate-400">Available for emergency consultations and routine vaccinations.</p>
+</div>
+</div>
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="bg-primary text-white px-8 py-3 rounded-xl font-bold shadow-lg shadow-primary/20 hover:bg-primary/90 transition-colors">
+                                View Full Profile
+                            </button>
+<button class="border-2 border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 px-8 py-3 rounded-xl font-bold hover:bg-slate-50 transition-colors">
+                                Patient Reviews
+                            </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-20">
+<div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+<div class="bg-primary rounded-3xl p-12 relative overflow-hidden shadow-2xl shadow-primary/40">
+<div class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -mr-32 -mt-32"></div>
+<div class="absolute bottom-0 left-0 w-48 h-48 bg-soft-pink/20 rounded-full -ml-24 -mb-24 blur-2xl"></div>
+<h2 class="text-3xl md:text-4xl font-extrabold text-white mb-6 relative z-10">Ready to provide the best care for your child?</h2>
+<p class="text-primary-foreground/90 text-white/80 text-lg mb-10 max-w-2xl mx-auto relative z-10">
+                        Book your consultation today and join thousands of families who trust us with their children's health.
+                    </p>
+<div class="flex flex-col sm:flex-row justify-center gap-4 relative z-10">
+<button class="bg-white text-primary px-10 py-4 rounded-xl font-black text-lg hover:bg-slate-50 transition-colors shadow-xl">
+                            Book Appointment Now
+                        </button>
+<button class="bg-primary/20 backdrop-blur-md border border-white/30 text-white px-10 py-4 rounded-xl font-bold text-lg hover:bg-white/10 transition-colors">
+                            Call +91 98765 43210
+                        </button>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-900 text-slate-400 py-12 border-t border-slate-800">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+<div class="col-span-1 md:col-span-2">
+<div class="flex items-center gap-2 mb-6">
+<div class="bg-primary p-1.5 rounded-lg text-white">
+<span class="material-symbols-outlined block">child_care</span>
+</div>
+<h2 class="text-white text-2xl font-bold">Navya Sree Clinic</h2>
+</div>
+<p class="max-w-sm leading-relaxed mb-6">
+                        Your trusted partner in pediatric health in Karimnagar. We offer expert consultations, specialized treatment, and wellness support for children of all ages.
+                    </p>
+<div class="flex gap-4">
+<a class="size-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary hover:text-white transition-all" href="#"><span class="material-symbols-outlined text-sm">social_leaderboard</span></a>
+<a class="size-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary hover:text-white transition-all" href="#"><span class="material-symbols-outlined text-sm">alternate_email</span></a>
+<a class="size-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary hover:text-white transition-all" href="#"><span class="material-symbols-outlined text-sm">share</span></a>
+</div>
+</div>
+<div>
+<h3 class="text-white font-bold mb-6 text-lg">Quick Links</h3>
+<ul class="space-y-4">
+<li><a class="hover:text-primary transition-colors" href="#">Pediatric Services</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Vaccination Schedule</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Patient Portal</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">FAQs</a></li>
+</ul>
+</div>
+<div>
+<h3 class="text-white font-bold mb-6 text-lg">Contact Info</h3>
+<ul class="space-y-4">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-xl">location_on</span>
+<span>Main Road, Near Hospital Square,<br/>Karimnagar, Telangana - 505001</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-xl">call</span>
+<span>+91 98765 43210</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-xl">mail</span>
+<span>contact@navyaclinic.com</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="pt-8 border-t border-slate-800 text-center text-sm">
+<p>© 2024 Navya Sree Children Clinic. Dedicated to Pediatric Excellence in Karimnagar.</p>
+</div>
+</div>
+</footer>
+</body></html>
+
+<!-- General Pediatrics Consultation Page -->
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Book Appointment &amp; Contact - Navya Sree Children Clinic</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              colors: {
+                "primary": "#a8d8ff",
+                "accent-pink": "#FFD6E8",
+                "background-light": "#f5f7f8",
+                "background-dark": "#0f1a23",
+                "clinic-blue-dark": "#4577a1",
+                "clinic-text": "#0c151d"
+              },
+              fontFamily: {
+                "display": ["Manrope", "sans-serif"]
+              },
+              borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+            },
+          },
+        }
+    </script>
+<style>
+        .form-focus-glow:focus {
+            outline: none;
+            box-shadow: 0 0 0 4px #FFD6E8;
+            border-color: #a8d8ff;
+        }
+        body {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-clinic-text min-h-screen">
+<!-- Navigation Header -->
+<header class="sticky top-0 z-50 w-full bg-white/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 h-20 flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="bg-primary p-2 rounded-lg">
+<span class="material-symbols-outlined text-clinic-text text-2xl">child_care</span>
+</div>
+<h1 class="text-xl font-extrabold tracking-tight text-clinic-text dark:text-slate-100">Navya Sree <span class="text-clinic-blue-dark">Children Clinic</span></h1>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-semibold hover:text-clinic-blue-dark transition-colors" href="#">Home</a>
+<a class="text-sm font-semibold hover:text-clinic-blue-dark transition-colors" href="#">Services</a>
+<a class="text-sm font-semibold hover:text-clinic-blue-dark transition-colors" href="#">About</a>
+<a class="bg-primary text-clinic-text px-6 py-2.5 rounded-full text-sm font-bold shadow-sm hover:shadow-md transition-all" href="#">Emergency Call</a>
+</nav>
+</div>
+</header>
+<main class="max-w-7xl mx-auto px-6 lg:px-12 py-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<!-- Booking Form Section (Left) -->
+<div class="lg:col-span-7 space-y-8">
+<div>
+<h2 class="text-4xl font-black text-clinic-text dark:text-slate-100 leading-tight">Schedule a Visit for Your Little One</h2>
+<p class="mt-4 text-clinic-blue-dark dark:text-slate-400 text-lg">Quick and easy online booking for routine checkups, vaccinations, and consultations.</p>
+</div>
+<div class="bg-white dark:bg-slate-900 p-8 rounded-xl shadow-sm border border-slate-100 dark:border-slate-800">
+<form class="space-y-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="space-y-2">
+<label class="text-sm font-bold text-slate-700 dark:text-slate-300">Parent's Full Name</label>
+<input class="w-full px-4 py-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 form-focus-glow transition-all" placeholder="John Doe" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-bold text-slate-700 dark:text-slate-300">Child's Name &amp; Age</label>
+<input class="w-full px-4 py-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 form-focus-glow transition-all" placeholder="Anya, 4 years" type="text"/>
+</div>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-bold text-slate-700 dark:text-slate-300">Service Type</label>
+<select class="w-full px-4 py-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 form-focus-glow transition-all appearance-none">
+<option>General Pediatric Consultation</option>
+<option>Vaccination / Immunization</option>
+<option>Newborn Care &amp; Support</option>
+<option>Growth Monitoring</option>
+<option>Emergency Visit</option>
+</select>
+</div>
+<div class="space-y-4">
+<label class="text-sm font-bold text-slate-700 dark:text-slate-300">Preferred Date</label>
+<div class="grid grid-cols-4 sm:grid-cols-7 gap-2">
+<button class="p-3 text-center border rounded-lg bg-slate-50 dark:bg-slate-800 dark:border-slate-700 hover:border-primary transition-all" type="button">
+<span class="block text-xs uppercase font-bold text-slate-400">Mon</span>
+<span class="text-lg font-bold">12</span>
+</button>
+<button class="p-3 text-center border-2 border-primary bg-primary/10 rounded-lg transition-all" type="button">
+<span class="block text-xs uppercase font-bold text-clinic-blue-dark">Tue</span>
+<span class="text-lg font-bold">13</span>
+</button>
+<button class="p-3 text-center border rounded-lg bg-slate-50 dark:bg-slate-800 dark:border-slate-700 hover:border-primary transition-all" type="button">
+<span class="block text-xs uppercase font-bold text-slate-400">Wed</span>
+<span class="text-lg font-bold">14</span>
+</button>
+<button class="p-3 text-center border rounded-lg bg-slate-50 dark:bg-slate-800 dark:border-slate-700 hover:border-primary transition-all" type="button">
+<span class="block text-xs uppercase font-bold text-slate-400">Thu</span>
+<span class="text-lg font-bold">15</span>
+</button>
+<button class="p-3 text-center border rounded-lg bg-slate-50 dark:bg-slate-800 dark:border-slate-700 hover:border-primary transition-all" type="button">
+<span class="block text-xs uppercase font-bold text-slate-400">Fri</span>
+<span class="text-lg font-bold">16</span>
+</button>
+<button class="p-3 text-center border rounded-lg bg-slate-50 dark:bg-slate-800 dark:border-slate-700 hover:border-primary transition-all" type="button">
+<span class="block text-xs uppercase font-bold text-slate-400">Sat</span>
+<span class="text-lg font-bold">17</span>
+</button>
+<button class="p-3 text-center border rounded-lg bg-slate-100 dark:bg-slate-800 dark:border-slate-700 cursor-not-allowed opacity-50" disabled="" type="button">
+<span class="block text-xs uppercase font-bold text-slate-400">Sun</span>
+<span class="text-lg font-bold">18</span>
+</button>
+</div>
+</div>
+<div class="space-y-4">
+<label class="text-sm font-bold text-slate-700 dark:text-slate-300">Available Time Slots</label>
+<div class="grid grid-cols-3 sm:grid-cols-4 gap-3">
+<button class="py-2.5 px-2 border rounded-lg text-sm font-medium hover:bg-primary transition-all" type="button">10:00 AM</button>
+<button class="py-2.5 px-2 bg-primary text-clinic-text font-bold border border-primary rounded-lg text-sm shadow-sm" type="button">11:30 AM</button>
+<button class="py-2.5 px-2 border rounded-lg text-sm font-medium hover:bg-primary transition-all" type="button">01:00 PM</button>
+<button class="py-2.5 px-2 border rounded-lg text-sm font-medium hover:bg-primary transition-all" type="button">04:30 PM</button>
+<button class="py-2.5 px-2 border rounded-lg text-sm font-medium hover:bg-primary transition-all" type="button">05:15 PM</button>
+<button class="py-2.5 px-2 border rounded-lg text-sm font-medium hover:bg-primary transition-all" type="button">06:00 PM</button>
+<button class="py-2.5 px-2 border rounded-lg text-sm font-medium hover:bg-primary transition-all" type="button">07:30 PM</button>
+<button class="py-2.5 px-2 border rounded-lg text-sm font-medium hover:bg-primary transition-all" type="button">08:00 PM</button>
+</div>
+</div>
+<button class="w-full bg-primary hover:bg-primary/90 text-clinic-text font-extrabold text-lg py-4 rounded-xl shadow-lg shadow-primary/20 transition-all flex items-center justify-center gap-2" type="submit">
+<span class="material-symbols-outlined">event_available</span>
+                            Confirm Appointment
+                        </button>
+<div class="flex items-center gap-2 text-sm text-green-600 font-semibold justify-center">
+<span class="material-symbols-outlined text-base">verified</span>
+<span>Standard consultation fee is ₹500</span>
+</div>
+</form>
+</div>
+</div>
+<!-- Contact Section (Right) -->
+<div class="lg:col-span-5 space-y-8">
+<div class="bg-white dark:bg-slate-900 rounded-xl shadow-sm border border-slate-100 dark:border-slate-800 overflow-hidden">
+<div class="relative h-64 bg-slate-200 dark:bg-slate-800">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Map showing location in Karimnagar" data-location="Karimnagar" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBmzAMoe6UwiBxMyG37DpuLI0H9N0wqBlsW3FF4gT68TMqLw_T-RdHpY7tIvR0ggXE75RVQSMaNGTMrXrUf1x7oE7t8fTl6JwCiG2fY8DG099i-SUYsYbYhfqhFsSiWgVnC_y1dHu_Ezc1-aT6qUmDQakbaZlALK6QnXw9UMGmpZrNRfR72vvY46FRU-bk2OnsKl1nz7nH3Qn_uZJGbn6tokoOCAiPyaz67S2FHCkMtRUpSFv_s350fJD4RLvmPZXCjAXKsqJilluNx')"></div>
+<div class="absolute inset-0 bg-clinic-blue-dark/10"></div>
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center">
+<div class="bg-white p-3 rounded-full shadow-xl">
+<span class="material-symbols-outlined text-primary text-4xl fill-1">location_on</span>
+</div>
+<div class="mt-2 bg-white dark:bg-slate-900 px-3 py-1 rounded-full text-xs font-bold shadow-md">Doctors Street, Karimnagar</div>
+</div>
+</div>
+<div class="p-8 space-y-6">
+<div class="flex items-start gap-4">
+<div class="bg-primary/20 p-3 rounded-lg">
+<span class="material-symbols-outlined text-clinic-blue-dark">call</span>
+</div>
+<div>
+<p class="text-xs font-bold text-slate-400 uppercase tracking-widest">Call for Emergencies</p>
+<a class="text-2xl font-black text-clinic-text dark:text-slate-100 hover:text-clinic-blue-dark transition-colors tracking-tight" href="tel:9177769169">
+                                    +91 91777 69169
+                                </a>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="bg-primary/20 p-3 rounded-lg">
+<span class="material-symbols-outlined text-clinic-blue-dark">near_me</span>
+</div>
+<div>
+<p class="text-xs font-bold text-slate-400 uppercase tracking-widest">Address</p>
+<p class="text-lg font-semibold text-clinic-text dark:text-slate-100">
+                                    Opp. Central Plaza, Doctors Street,<br/>
+                                    Karimnagar, Telangana 505001
+                                </p>
+</div>
+</div>
+<div class="border-t border-slate-100 dark:border-slate-800 pt-6">
+<h3 class="text-sm font-extrabold text-slate-400 uppercase tracking-widest mb-4">Clinic Hours</h3>
+<div class="space-y-3">
+<div class="flex justify-between items-center bg-accent-pink/30 p-3 rounded-lg border border-accent-pink/50">
+<span class="font-bold">Mon - Sat</span>
+<span class="font-bold text-clinic-blue-dark">10:00 AM - 08:00 PM</span>
+</div>
+<div class="flex justify-between items-center p-3">
+<span class="font-bold">Sunday</span>
+<span class="font-bold text-rose-500 flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">emergency</span>
+                                        Emergency Only
+                                    </span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-primary p-6 rounded-xl flex items-center justify-between shadow-lg shadow-primary/30">
+<div class="space-y-1">
+<h4 class="font-black text-clinic-text">Need to chat?</h4>
+<p class="text-sm font-medium text-clinic-blue-dark">WhatsApp our support team</p>
+</div>
+<button class="bg-white text-clinic-text px-6 py-2 rounded-full font-bold shadow-sm hover:scale-105 transition-transform">
+                        Message Us
+                    </button>
+</div>
+</div>
+</div>
+</main>
+<footer class="mt-20 border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 py-12">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex items-center gap-3">
+<div class="bg-primary/20 p-2 rounded-lg">
+<span class="material-symbols-outlined text-clinic-text text-xl">child_care</span>
+</div>
+<h1 class="text-lg font-bold text-clinic-text dark:text-slate-100 tracking-tight">Navya Sree Children Clinic</h1>
+</div>
+<p class="text-slate-500 text-sm font-medium">© 2024 Navya Sree Children Clinic. All rights reserved.</p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-lg">share</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-lg">mail</span>
+</a>
+</div>
+</div>
+</footer>
+</body></html>
